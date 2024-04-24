@@ -59,7 +59,7 @@ int main()
     for (int i = 0; i < n; i++)
         cin >> arr[i];
     MERGE_SORT(arr, 0, n - 1);
-    cout << "After SWapping\n";
+    cout << "After Sorting\n";
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
 }

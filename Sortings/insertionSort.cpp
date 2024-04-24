@@ -18,7 +18,7 @@ int main()
         }
         arr[j + 1] = key;
     }
-    cout << "After SWapping\n";
+    cout << "After Sorting\n";
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
 }

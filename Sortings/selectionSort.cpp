@@ -20,7 +20,7 @@ int main()
         arr[mini] = arr[i];
         arr[i] = temp;
     }
-    cout << "After SWapping\n";
+    cout << "After Sorting\n";
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
 }
